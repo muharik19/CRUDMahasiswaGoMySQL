@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CRUD Mahasiswa Go MySQL</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="tambah_data_mahasiswa">Tambah Data Mahasiswa</string>
+    <string name="ubah_data_mahasiswa">Ubah Data Mahasiswa</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="hp">Hp</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="ubah_data">Ubah Data</string>
+    <string name="edit_data">Edit</string>
+    <string name="delete_data">Delete</string>
+</resources>

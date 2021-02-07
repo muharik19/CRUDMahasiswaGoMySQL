@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_padding">15dp</dimen>
+    <dimen name="fab_textsize">20sp</dimen>
+    <dimen name="fab_upload">20dp</dimen>
+    <dimen name="fab_textupload">17sp</dimen>
+    <dimen name="fab_image">250dp</dimen>
+    <dimen name="fab_margin_top">10dp</dimen>
+    <dimen name="fab_button">147dp</dimen>
+    <dimen name="fab_tb">4dp</dimen>
+    <dimen name="fab_lr">8dp</dimen>
+    <dimen name="fab_ivw">150dp</dimen>
+    <dimen name="fab_ivh">220dp</dimen>
+</resources>

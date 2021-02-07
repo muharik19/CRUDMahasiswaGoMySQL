@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mahasiswa.CreateActivity"
+    android:padding="@dimen/fab_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah_data_mahasiswa"
+        android:textAlignment="center"
+        android:textSize="@dimen/fab_textsize"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nim"
+        android:hint="@string/nim"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nama"
+        android:hint="@string/nama"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_jurusan"
+        android:hint="@string/jurusan"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_hp"
+        android:hint="@string/hp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_photo"
+        android:layout_marginTop="@dimen/fab_upload"
+        android:textSize="@dimen/fab_textupload"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fab_image"
+        android:id="@+id/iv_photo"
+        android:layout_marginTop="@dimen/fab_margin_top"
+        android:adjustViewBounds="true"
+        app:layout_collapseMode="parallax"
+        app:layout_collapseParallaxMultiplier="0.7"
+        android:background="@color/colorBackgroundImage"/>
+
+    <Button
+        android:layout_width="@dimen/fab_button"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tambah"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/fab_padding"
+        android:text="@string/tambah_data"
+        android:background="@color/colorButton"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorButtonText"
+        android:textStyle="bold"/>
+
+</LinearLayout>
